@@ -7,19 +7,19 @@ This proyect is the result of a challenge, made to test app development skills.
 ![Title View]()
 
 #### Characters View
-![Characters View]()
+![Characters View](https://github.com/tomasdematos/ChallengeReactNative/blob/925dce952b8316c63028e20f45398f1c13da857f/img/charactersView.png)
 
 #### Locations View
-![Loctions View]()
+![Loctions View](https://github.com/tomasdematos/ChallengeReactNative/blob/925dce952b8316c63028e20f45398f1c13da857f/img/locationsView.png)
 
 #### Episodes View
-![Episodes View]()
+![Episodes View](https://github.com/tomasdematos/ChallengeReactNative/blob/925dce952b8316c63028e20f45398f1c13da857f/img/episodesView.png)
 
 #### Pagination
-![Pagination]()
+![Pagination](https://github.com/tomasdematos/ChallengeReactNative/blob/925dce952b8316c63028e20f45398f1c13da857f/img/pagination.png)
 
 #### Details
-![Details]()
+![Details](https://github.com/tomasdematos/ChallengeReactNative/blob/925dce952b8316c63028e20f45398f1c13da857f/img/details.png)
 
 
 
