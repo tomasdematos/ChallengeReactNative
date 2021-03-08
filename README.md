@@ -4,7 +4,7 @@ This proyect is the result of a challenge, made to test app development skills.
 # Sample Images
 
 #### Title View
-![Title View]()
+![Title View](https://github.com/tomasdematos/ChallengeReactNative/blob/7a3dd98f34f29396c14a3616c23dd689f06f5905/img/titleView.png)
 
 #### Characters View
 ![Characters View](https://github.com/tomasdematos/ChallengeReactNative/blob/925dce952b8316c63028e20f45398f1c13da857f/img/charactersView.png)
