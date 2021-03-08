@@ -1,9 +1,8 @@
-import { useQuery, gql } from '@apollo/client';
+import { gql } from '@apollo/client';
 
 export const CHARACTERS = (page: number, type: string, filter: string) => {
-
-    if (filter.length >= 3) {
-        const CHARACTERS = `
+  if (filter.length >= 3) {
+    const CHARACTERS = `
         {
             characters(page: ${page}, filter: { ${type}: "${filter}"}) {
                 info {
@@ -19,10 +18,11 @@ export const CHARACTERS = (page: number, type: string, filter: string) => {
                 }
             }
         }`;
-        return gql`${CHARACTERS}`
-
-    } else {
-        const CHARACTERS = `
+    return gql`
+      ${CHARACTERS}
+    `;
+  } else {
+    const CHARACTERS = `
         {
             characters(page: ${page}) {
                 info {
@@ -38,13 +38,15 @@ export const CHARACTERS = (page: number, type: string, filter: string) => {
                 }
             }
         }`;
-        return gql`${CHARACTERS}`
-    }
-}
+    return gql`
+      ${CHARACTERS}
+    `;
+  }
+};
 
 export const LOCATIONS = (page: number, type: string, filter: string) => {
-    if (filter.length >= 3) {
-        const LOCATIONS = `
+  if (filter.length >= 3) {
+    const LOCATIONS = `
     {
         locations(page: ${page}, filter: { ${type}: "${filter}"}) {
             info {
@@ -67,9 +69,11 @@ export const LOCATIONS = (page: number, type: string, filter: string) => {
             }
         }
     }`;
-        return gql`${LOCATIONS}`
-    } else {
-        const LOCATIONS = `
+    return gql`
+      ${LOCATIONS}
+    `;
+  } else {
+    const LOCATIONS = `
         {
             locations(page: ${page}) {
                 info {
@@ -92,16 +96,18 @@ export const LOCATIONS = (page: number, type: string, filter: string) => {
                 }
             }
         }`;
-        return gql`${LOCATIONS}`
-    }
-}
+    return gql`
+      ${LOCATIONS}
+    `;
+  }
+};
 
 export const EPISODES = (page: number, type: string, filter: string) => {
-    if (filter.length >= 3) {
-        if (type === "type") {
-            type = "episode"
-        }
-        const EPISODES = `
+  if (filter.length >= 3) {
+    if (type === 'type') {
+      type = 'episode';
+    }
+    const EPISODES = `
         {
             episodes(page: ${page}, filter: { ${type}: "${filter}"}) {
                 info {
@@ -123,9 +129,11 @@ export const EPISODES = (page: number, type: string, filter: string) => {
                 }
             }
         }`;
-        return gql`${EPISODES}`
-    } else {
-        const EPISODES = `
+    return gql`
+      ${EPISODES}
+    `;
+  } else {
+    const EPISODES = `
         {
             episodes(page: ${page}) {
                 info {
@@ -147,6 +155,8 @@ export const EPISODES = (page: number, type: string, filter: string) => {
                 }
             }
         }`;
-        return gql`${EPISODES}`
-    }
-}
+    return gql`
+      ${EPISODES}
+    `;
+  }
+};

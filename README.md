@@ -1,6 +1,34 @@
 # Challenge React Native 
 This proyect is the result of a challenge, made to test app development skills.
 
+# Sample Images
+
+#### Title View
+![Title View]()
+
+#### Characters View
+![Characters View]()
+
+#### Locations View
+![Loctions View]()
+
+#### Episodes View
+![Episodes View]()
+
+#### Pagination
+![Pagination]()
+
+#### Details
+![Details]()
+
+
+
+
+# Installation 
+
+1. ``` yarn ```
+2. ``` yarn android ```
+
 # How to use
 The first screen has a menu, with a title for the app, and a button to explore the results.
 
